@@ -1,0 +1,5 @@
+# 仅本地开发使用：`hugo server` 会自动采用 development 环境。
+baseURL = "http://localhost:1313/"
+
+# 本地预览时显示尚未发布的草稿文章；生产构建仍会排除草稿。
+buildDrafts = true

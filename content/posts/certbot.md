@@ -1,6 +1,6 @@
 +++
 date = '2026-08-05T18:00:03+08:00'
-draft = true
+draft = false
 title = 'Certbot'
 +++
 
@@ -61,7 +61,7 @@ sudo certbot --nginx -d xxx.example1.com -d xxx.example2.com
 通过源码安装和多个域名同一张多域名证书
 
 ```shell
-    sudo certbot --nginx \
+sudo certbot --nginx \
   --nginx-ctl /usr/local/nginx/sbin \
   --nginx-server-root /usr/local/nginx/conf \
   -d xxx.example1.com \

@@ -16,3 +16,28 @@ ShowShareButtons = true
 ShowCodeCopyButtons = true
 
 ShowPostNavLinks = true
+
+
+[params.profileMode]
+
+enabled = true
+
+title = "CarryRee"
+
+subtitle = "Embedded Engineer | Rust | Linux | AWS"
+
+imageUrl = "/avatar.png"
+
+imageTitle = "avatar"
+
+[[params.profileMode.buttons]]
+
+name = "文章"
+
+url = "/posts"
+
+[[params.profileMode.buttons]]
+
+name = "GitHub"
+
+url = "https://github.com/CarryRee"
