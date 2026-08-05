@@ -1,0 +1,18 @@
+baseURL = "http://localhost:1313/"
+languageCode = "zh-cn"
+title = "我的技术博客"
+
+theme = "PaperMod"
+
+
+[params]
+
+defaultTheme = "auto"
+
+ShowReadingTime = true
+
+ShowShareButtons = true
+
+ShowCodeCopyButtons = true
+
+ShowPostNavLinks = true
