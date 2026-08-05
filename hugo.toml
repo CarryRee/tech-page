@@ -1,4 +1,4 @@
-baseURL = "http://localhost:1313/"
+baseURL = "https://carryree.github.io/tech-page"
 languageCode = "zh-cn"
 title = "我的技术博客"
 
