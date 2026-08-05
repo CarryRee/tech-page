@@ -34,7 +34,7 @@ imageTitle = "avatar"
 
 name = "文章"
 
-url = "/posts"
+url = "posts/"
 
 [[params.profileMode.buttons]]
 
