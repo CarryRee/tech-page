@@ -1,0 +1,56 @@
+@media screen and (min-width: 1080px) {
+    .main:has(.post-has-toc) {
+        max-width: 1040px;
+    }
+
+    .post-has-toc > .post-header,
+    .post-has-toc > .post-footer,
+    .post-has-toc > .post-cover {
+        max-width: var(--main-width);
+        margin-inline: 0;
+    }
+
+    .post-content-with-toc {
+        display: grid;
+        grid-template-columns: minmax(0, var(--main-width)) minmax(200px, 240px);
+        column-gap: 48px;
+        align-items: start;
+    }
+
+    .post-content-with-toc > .post-content {
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    .post-toc-sidebar {
+        grid-column: 2;
+        grid-row: 1;
+        position: sticky;
+        top: calc(var(--header-height) + var(--gap));
+        max-height: calc(100vh - var(--header-height) - var(--gap) * 2);
+        overflow-y: auto;
+    }
+
+    .post-toc-sidebar details.toc {
+        margin-top: 30px;
+        margin-bottom: 0;
+        border-radius: 0;
+        border-width: 0 0 0 2px;
+        background: transparent;
+    }
+
+    .post-toc-sidebar details.toc summary {
+        padding: 0 0 0 12px;
+    }
+
+    .post-toc-sidebar details .inner {
+        margin: 10px 0 0 12px;
+        padding-bottom: 0;
+    }
+}
+
+@media screen and (max-width: 1079px) {
+    .post-toc-sidebar details.toc {
+        margin-top: 20px;
+    }
+}

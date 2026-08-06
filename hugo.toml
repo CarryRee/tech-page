@@ -1,43 +1,28 @@
 baseURL = "https://carryree.github.io/tech-page/"
 languageCode = "zh-cn"
 title = "我的技术博客"
-
 theme = "PaperMod"
 
-
 [params]
-
 defaultTheme = "auto"
-
 ShowReadingTime = true
-
 ShowShareButtons = true
-
 ShowCodeCopyButtons = true
-
 ShowPostNavLinks = true
-
+ShowToc = true
+TocOpen = true
 
 [params.profileMode]
-
 enabled = true
-
 title = "CarryRee"
-
 subtitle = "Software Engineer | Rust | Linux | AWS"
-
-imageUrl = "/avatar.png"
-
+imageUrl = "/avatar.jpg"
 imageTitle = "avatar"
 
 [[params.profileMode.buttons]]
-
-name = "文章"
-
+name = "Posts"
 url = "posts/"
 
 [[params.profileMode.buttons]]
-
 name = "GitHub"
-
 url = "https://github.com/CarryRee"

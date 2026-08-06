@@ -1,7 +1,7 @@
 +++
 date = '2026-08-05T18:00:03+08:00'
 draft = false
-title = 'Certbot'
+title = 'SSL 证书自动续费'
 +++
 
 # Ubuntu 安装 Certbot
