@@ -1,4 +1,28 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>CarryRee's blog</title><link>https://carryree.github.io/tech-page/</link><description>Recent content on CarryRee's blog</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Wed, 05 Aug 2026 18:00:03 +0800</lastBuildDate><atom:link href="https://carryree.github.io/tech-page/index.xml" rel="self" type="application/rss+xml"/><item><title>SSL 证书自动续费</title><link>https://carryree.github.io/tech-page/posts/certbot/</link><pubDate>Wed, 05 Aug 2026 18:00:03 +0800</pubDate><guid>https://carryree.github.io/tech-page/posts/certbot/</guid><description>&lt;h1 id="ubuntu-安装-certbot"&gt;Ubuntu 安装 Certbot&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>CarryRee's blog</title><link>https://carryree.github.io/tech-page/</link><description>Recent content on CarryRee's blog</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Thu, 06 Aug 2026 14:54:25 +0800</lastBuildDate><atom:link href="https://carryree.github.io/tech-page/index.xml" rel="self" type="application/rss+xml"/><item><title>AWS 开发环境搭建</title><link>https://carryree.github.io/tech-page/posts/aws-configure/</link><pubDate>Thu, 06 Aug 2026 14:54:25 +0800</pubDate><guid>https://carryree.github.io/tech-page/posts/aws-configure/</guid><description>&lt;h1 id="aws-开发环境搭建"&gt;AWS 开发环境搭建&lt;/h1&gt;
+&lt;h2 id="1-windows-安装-aws-cli"&gt;1. Windows 安装 AWS CLI&lt;/h2&gt;
+&lt;h2 id="下载并验证"&gt;下载并验证&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-getting-started.html"&gt;https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-getting-started.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;安装完成后，启动终端，输入&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-shell" data-lang="shell"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;aws --version
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="配置环境-id--key"&gt;配置环境 ID &amp;amp; Key&lt;/h2&gt;
+&lt;p&gt;使用终端，输入&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-shell" data-lang="shell"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;aws configure
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;按照要求输入&lt;code&gt;AWS Access Key ID&lt;/code&gt;，&lt;code&gt;AWS Secret Access Key&lt;/code&gt;，&lt;code&gt;Default region name&lt;/code&gt;，&lt;code&gt;Default output format&lt;/code&gt;
+完成后会生成在 C:\Users&amp;lt;username&amp;gt;.aws&lt;/p&gt;
+&lt;p&gt;&lt;img alt="图片说明" loading="lazy" src="https://carryree.github.io/tech-page/static/aws/aws_path.png"&gt;&lt;/p&gt;
+&lt;h2 id="2-linux-安装-aws-cli"&gt;2. Linux 安装 AWS CLI&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html"&gt;https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;安装完成后，启动终端，输入&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-shell" data-lang="shell"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;aws --version
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="配置环境-id--key-1"&gt;配置环境 ID &amp;amp; Key&lt;/h2&gt;
+&lt;p&gt;使用终端，输入&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-shell" data-lang="shell"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;aws configure
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;如果有多套，可以使用如下，xxx 为环境名称&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-shell" data-lang="shell"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;aws configure --profile xxx
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;按照要求输入&lt;code&gt;AWS Access Key ID&lt;/code&gt;，&lt;code&gt;AWS Secret Access Key&lt;/code&gt;，&lt;code&gt;Default region name&lt;/code&gt;，&lt;code&gt;Default output format&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;验证文件生成&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-shell" data-lang="shell"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;ls -a ~/.aws/
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;查看&lt;/p&gt;</description></item><item><title>SSL 证书自动续费</title><link>https://carryree.github.io/tech-page/posts/certbot/</link><pubDate>Wed, 05 Aug 2026 18:00:03 +0800</pubDate><guid>https://carryree.github.io/tech-page/posts/certbot/</guid><description>&lt;h1 id="ubuntu-安装-certbot"&gt;Ubuntu 安装 Certbot&lt;/h1&gt;
 &lt;h2 id="1-安装-snap--certbot"&gt;1. 安装 Snap &amp;amp; Certbot&lt;/h2&gt;
 &lt;p&gt;Certbot 官方推荐使用 Snap：&lt;/p&gt;
 &lt;p&gt;sudo apt update
