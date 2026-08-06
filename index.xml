@@ -8,8 +8,9 @@
 &lt;p&gt;使用终端，输入&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-shell" data-lang="shell"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;aws configure
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;按照要求输入&lt;code&gt;AWS Access Key ID&lt;/code&gt;，&lt;code&gt;AWS Secret Access Key&lt;/code&gt;，&lt;code&gt;Default region name&lt;/code&gt;，&lt;code&gt;Default output format&lt;/code&gt;
-完成后会生成在 C:\Users&amp;lt;username&amp;gt;.aws&lt;/p&gt;
-&lt;p&gt;&lt;img alt="图片说明" loading="lazy" src="https://carryree.github.io/tech-page/static/aws/aws_path.png"&gt;&lt;/p&gt;
+完成后会生成在 &lt;code&gt;C:\Users\&amp;lt;username&amp;gt;\.aws&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="图片说明" loading="lazy" src="https://carryree.github.io/tech-page/aws/aws_path.png"&gt;
+&lt;/p&gt;
 &lt;h2 id="2-linux-安装-aws-cli"&gt;2. Linux 安装 AWS CLI&lt;/h2&gt;
 &lt;p&gt;&lt;a href="https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html"&gt;https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;安装完成后，启动终端，输入&lt;/p&gt;
