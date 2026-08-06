@@ -29,7 +29,7 @@ aws configure
 按照要求输入`AWS Access Key ID`，`AWS Secret Access Key`，`Default region name`，`Default output format`
 完成后会生成在 C:\Users\<username>\.aws
 
-![图片说明](/static/aws/aws_path.png)
+![图片说明](/aws/aws_path.png)
 
 ## 2. Linux 安装 AWS CLI
 
