@@ -1,6 +1,6 @@
 +++
 date = '2026-08-06T14:54:25+08:00'
-draft = true
+draft = false
 title = 'AWS 开发环境搭建'
 +++
 
