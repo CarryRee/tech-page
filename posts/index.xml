@@ -1,4 +1,23 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Posts on CarryRee's blog</title><link>https://carryree.github.io/tech-page/posts/</link><description>Recent content in Posts on CarryRee's blog</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Thu, 06 Aug 2026 14:54:25 +0800</lastBuildDate><atom:link href="https://carryree.github.io/tech-page/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>AWS 开发环境搭建</title><link>https://carryree.github.io/tech-page/posts/aws-configure/</link><pubDate>Thu, 06 Aug 2026 14:54:25 +0800</pubDate><guid>https://carryree.github.io/tech-page/posts/aws-configure/</guid><description>&lt;h1 id="aws-开发环境搭建"&gt;AWS 开发环境搭建&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Posts on CarryRee's blog</title><link>https://carryree.github.io/tech-page/posts/</link><description>Recent content in Posts on CarryRee's blog</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Thu, 06 Aug 2026 16:56:02 +0800</lastBuildDate><atom:link href="https://carryree.github.io/tech-page/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>macos 分发证书</title><link>https://carryree.github.io/tech-page/posts/macos-certficate/</link><pubDate>Thu, 06 Aug 2026 16:56:02 +0800</pubDate><guid>https://carryree.github.io/tech-page/posts/macos-certficate/</guid><description>&lt;h1 id="macos-应用分发需要哪些证书"&gt;macOS 应用分发需要哪些证书&lt;/h1&gt;
+&lt;h2 id="官网企业内部或第三方渠道下载"&gt;官网、企业内部或第三方渠道下载&lt;/h2&gt;
+&lt;h3 id="创建相关证书"&gt;创建相关证书&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://developer.apple.com/help/account/certificates/create-developer-id-certificates/"&gt;https://developer.apple.com/help/account/certificates/create-developer-id-certificates/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;使用：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Developer ID Application：签名 .app&lt;/li&gt;
+&lt;li&gt;Developer ID Installer：签名 .pkg 安装包&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;注意：需要根账号创建
+&lt;img alt="图片说明" loading="lazy" src="https://carryree.github.io/tech-page/macos/create-cert.jpg"&gt;
+&lt;/p&gt;
+&lt;h2 id="发布到-mac-app-store"&gt;发布到 Mac App Store&lt;/h2&gt;
+&lt;p&gt;使用：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Mac App Distribution：签名 App&lt;/li&gt;
+&lt;li&gt;Mac Installer Distribution：签名提交到商店的安装包&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="各种证书用途"&gt;各种证书用途&lt;/h2&gt;
+&lt;p&gt;Apple 官方对这些证书用途的分类如下：https://developer.apple.com/help/account/certificates/certificates-overview/&lt;/p&gt;</description></item><item><title>AWS 开发环境搭建</title><link>https://carryree.github.io/tech-page/posts/aws-configure/</link><pubDate>Thu, 06 Aug 2026 14:54:25 +0800</pubDate><guid>https://carryree.github.io/tech-page/posts/aws-configure/</guid><description>&lt;h1 id="aws-开发环境搭建"&gt;AWS 开发环境搭建&lt;/h1&gt;
 &lt;h2 id="1-windows-安装-aws-cli"&gt;1. Windows 安装 AWS CLI&lt;/h2&gt;
 &lt;h2 id="下载并验证"&gt;下载并验证&lt;/h2&gt;
 &lt;p&gt;&lt;a href="https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-getting-started.html"&gt;https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-getting-started.html&lt;/a&gt;&lt;/p&gt;
