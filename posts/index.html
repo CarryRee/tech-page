@@ -12,8 +12,8 @@ aws configure --profile xxx 按照要求输入AWS Access Key ID，AWS Secret Acc
 验证文件生成
 ls -a ~/.aws/ 查看
 ...</p></div><footer class=entry-footer><span title='2026-08-06 14:54:25 +0800 +0800'>August 6, 2026</span>&nbsp;·&nbsp;<span>1 min</span></footer><a class=entry-link aria-label="post link to AWS 开发环境搭建" href=https://carryree.github.io/tech-page/posts/aws-configure/></a></article><article class=post-entry><header class=entry-header><h2 class=entry-hint-parent>SSL 证书自动续费</h2></header><div class=entry-content><p>Ubuntu 安装 Certbot 1. 安装 Snap & Certbot Certbot 官方推荐使用 Snap：
-sudo apt update sudo apt install -y snapd
-安装并更新 Snap 核心： ```shell sudo snap install core sudo snap refresh core 安装新版 Certbot：
+sudo apt update sudo apt install -y snapd 安装并更新 Snap 核心：
+sudo snap install core sudo snap refresh core 安装新版 Certbot：
 sudo snap install --classic certbot 建立命令链接：
 sudo ln -s /snap/bin/certbot /usr/bin/certbot 验证：
 certbot --version 2. Nginx 配置 Nginx 申请证书 Ubuntu 通过 apt 安装的 Nginx
