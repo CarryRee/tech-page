@@ -10,7 +10,7 @@ title = 'SSL 证书自动续费'
 
 Certbot 官方推荐使用 Snap：
 
-```shell
+
 sudo apt update
 sudo apt install -y snapd
 ```

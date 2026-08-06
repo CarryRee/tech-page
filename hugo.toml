@@ -1,6 +1,6 @@
 baseURL = "https://carryree.github.io/tech-page/"
 languageCode = "zh-cn"
-title = "我的技术博客"
+title = "CarryRee's blog"
 theme = "PaperMod"
 
 [params]
@@ -14,9 +14,9 @@ TocOpen = true
 
 [params.profileMode]
 enabled = true
-title = "CarryRee"
-subtitle = "Software Engineer | Rust | Linux | AWS"
-imageUrl = "/avatar.jpg"
+title = "Documents"
+subtitle = "Bruce Lee said,\"Empty your mind. Be formless, shapeless, like water. You put water into a cup, and it becomes the cup. You put water into a bottle, and it becomes the bottle. You put it into a teapot, and it becomes the teapot. Now water can flow or crash. Be water, my friend.\""
+imageUrl = "avatar.jpg"
 imageTitle = "avatar"
 
 [[params.profileMode.buttons]]
